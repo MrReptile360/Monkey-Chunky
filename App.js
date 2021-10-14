@@ -1,7 +1,20 @@
 import * as React from 'react';
 import {
   Text,
+  View,import * as React from 'react';
+import {
+  Text,
   View,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+  Image,
+  Alert
+} from 'react-native';
+import { Header } from 'react-native-elements';
+import db from './localdb';
+import PhonicSoundButton from './components/PhonicSoundButton';
+
   StyleSheet,
   TextInput,
   TouchableOpacity,
@@ -98,7 +111,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     textAlign: 'center',
-    fontSize: 30,
+    fontSize: 35,
     fontWeight: 'bold',
   },
   imageIcon: {
